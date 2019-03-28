@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Font?>
+<AnchorPane prefHeight="300.0" prefWidth="300.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="medicalapp_v1.LoginUICntl">
+    <children>
+        <Button layoutX="114.0" layoutY="204.0" mnemonicParsing="false" onAction="#Login" text="Login">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+        <TextField fx:id="txtUserName" layoutX="48.0" layoutY="105.0" promptText="UserName">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </TextField>
+        <PasswordField fx:id="txtPassword" layoutX="48.0" layoutY="150.0" promptText="Password">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </PasswordField>
+        <Label fx:id="lblStatus" alignment="CENTER" layoutY="35.0" prefHeight="19.0" prefWidth="300.0" text="" textFill="#d31c1c">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

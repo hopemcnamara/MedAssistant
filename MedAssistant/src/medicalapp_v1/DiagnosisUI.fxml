@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="medicalapp_v1.DiagnosisUICntl">
+   <children>
+      <Label layoutX="221.0" layoutY="14.0" text="Get Diagnosis">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="nas_check" layoutX="39.0" layoutY="236.0" mnemonicParsing="false" text="nausea " />
+      <CheckBox fx:id="cong_check" layoutX="39.0" layoutY="165.0" mnemonicParsing="false" text="congestion" />
+      <CheckBox fx:id="chills_check" layoutX="39.0" layoutY="147.0" mnemonicParsing="false" text="chills" />
+      <CheckBox fx:id="fever_check" layoutX="39.0" layoutY="218.0" mnemonicParsing="false" text="fever" />
+      <CheckBox fx:id="dizz_check" layoutX="39.0" layoutY="182.0" mnemonicParsing="false" text="dizziness" />
+      <CheckBox fx:id="sweat_check" layoutX="39.0" layoutY="254.0" mnemonicParsing="false" text="sweaty" />
+      <CheckBox fx:id="thirst_check" layoutX="39.0" layoutY="272.0" mnemonicParsing="false" text="thirsty" />
+      <CheckBox fx:id="dm_check" layoutX="39.0" layoutY="200.0" mnemonicParsing="false" text="dry mouth" />
+      <CheckBox fx:id="tired_check" layoutX="39.0" layoutY="290.0" mnemonicParsing="false" text="tiredness" />
+      <CheckBox fx:id="bv_check" layoutX="39.0" layoutY="129.0" mnemonicParsing="false" text="blurred vision" />
+      <CheckBox fx:id="ab_check" layoutX="39.0" layoutY="93.0" mnemonicParsing="false" text="abnormal bowel" />
+      <CheckBox fx:id="au_check" layoutX="39.0" layoutY="111.0" mnemonicParsing="false" text="abmormal urination" />
+      <Text layoutX="133.0" layoutY="340.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Label layoutX="327.0" layoutY="183.0" text="Diagnosis:" />
+      <Text fx:id="diagnosisText" layoutX="406.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select Symptoms" />
+      <Button fx:id="getDiagnosisButton" layoutX="347.0" layoutY="134.0" mnemonicParsing="false" onAction="#getDiagnosisAction" text="Get Diagnosis" />
+   </children>
+</AnchorPane>
